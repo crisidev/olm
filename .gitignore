@@ -1,2 +1,40 @@
+# macOS
 .DS_Store
+
+# Go build artifacts
 bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Android build artifacts
+android/build/
+android/.gradle/
+android/local.properties
+android/libs/libolm*.aar
+android/.cxx/
+*.apk
+*.aab
+
+# Gradle
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+
+# Temporary files
+tmp/
+temp/
+*.log
